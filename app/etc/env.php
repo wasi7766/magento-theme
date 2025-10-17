@@ -74,6 +74,14 @@ return [
             ]
         ]
     ],
+    'search' => [
+        'engine' => 'OpenSearch',
+        'opensearch_server_hostname' => 'opensearch',
+        'opensearch_server_port' => '9200',
+        'opensearch_index_prefix' => 'magento2',
+        'opensearch_enable_auth' => '0',
+        'opensearch_server_timeout' => '15'
+    ],
     'resource' => [
         'default_setup' => [
             'connection' => 'default'

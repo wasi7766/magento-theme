@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9deea42e758aa8cfd46ac35cc72d7e34",
+    "content-hash": "516ccaa8af518691987c8c5c052316a9",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.356.40",
+            "version": "3.356.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "3c1d71932ed962810316930b327b3b71a7517cff"
+                "reference": "ca7f6fe61688817afb55105078d0daa1c99d3ab9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/3c1d71932ed962810316930b327b3b71a7517cff",
-                "reference": "3c1d71932ed962810316930b327b3b71a7517cff",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/ca7f6fe61688817afb55105078d0daa1c99d3ab9",
+                "reference": "ca7f6fe61688817afb55105078d0daa1c99d3ab9",
                 "shasum": ""
             },
             "require": {
@@ -273,9 +273,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.40"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.356.41"
             },
-            "time": "2025-10-15T18:13:33+00:00"
+            "time": "2025-10-16T18:07:24+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -22148,6 +22148,272 @@
                 }
             ],
             "time": "2025-06-13T08:35:04+00:00"
+        },
+        {
+            "name": "swissup/breeze-evolution",
+            "version": "2.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/breezefront/breeze-evolution.git",
+                "reference": "6d857527e419e191b4c12505f719297f554c8854"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/breezefront/breeze-evolution/zipball/6d857527e419e191b4c12505f719297f554c8854",
+                "reference": "6d857527e419e191b4c12505f719297f554c8854",
+                "shasum": ""
+            },
+            "require": {
+                "swissup/module-breeze": "^2.15.0",
+                "swissup/module-breeze-integrations": "^1.3.2",
+                "swissup/theme-frontend-breeze-blank": "^2.7.4",
+                "swissup/theme-frontend-breeze-evolution": "^2.1.9"
+            },
+            "type": "metapackage",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Breeze Evolution Theme",
+            "support": {
+                "source": "https://github.com/breezefront/breeze-evolution/tree/2.5.4"
+            },
+            "time": "2025-10-06T07:22:24+00:00"
+        },
+        {
+            "name": "swissup/module-breeze",
+            "version": "2.26.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/breezefront/module-breeze.git",
+                "reference": "f038c8b0a264bf42bad89c8cafa0440f2ca6668b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/breezefront/module-breeze/zipball/f038c8b0a264bf42bad89c8cafa0440f2ca6668b",
+                "reference": "f038c8b0a264bf42bad89c8cafa0440f2ca6668b",
+                "shasum": ""
+            },
+            "require": {
+                "swissup/module-rtl": "^1.3.4"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\Breeze\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Performant Magento Frontend",
+            "support": {
+                "issues": "https://github.com/breezefront/module-breeze/issues",
+                "source": "https://github.com/breezefront/module-breeze/tree/2.26.1"
+            },
+            "time": "2025-10-07T08:20:13+00:00"
+        },
+        {
+            "name": "swissup/module-breeze-integrations",
+            "version": "1.3.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/breezefront/module-breeze-integrations.git",
+                "reference": "1cbe823ecbfc1fd6cbc7b4656a3662e4284fc448"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/breezefront/module-breeze-integrations/zipball/1cbe823ecbfc1fd6cbc7b4656a3662e4284fc448",
+                "reference": "1cbe823ecbfc1fd6cbc7b4656a3662e4284fc448",
+                "shasum": ""
+            },
+            "require": {
+                "swissup/module-breeze": "^2.12.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\BreezeIntegrations\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Third-party modules integrations with Breeze Frontend",
+            "support": {
+                "issues": "https://github.com/breezefront/module-breeze-integrations/issues",
+                "source": "https://github.com/breezefront/module-breeze-integrations/tree/1.3.6"
+            },
+            "time": "2025-10-03T11:33:45+00:00"
+        },
+        {
+            "name": "swissup/module-marketplace",
+            "version": "1.10.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swissup/module-marketplace.git",
+                "reference": "8ecb8cfe54a6a16c432de189a70a6dad6771c3a3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swissup/module-marketplace/zipball/8ecb8cfe54a6a16c432de189a70a6dad6771c3a3",
+                "reference": "8ecb8cfe54a6a16c432de189a70a6dad6771c3a3",
+                "shasum": ""
+            },
+            "require": {
+                "composer/composer": "*",
+                "magento/framework": ">=101.0",
+                "magento/module-backend": ">=100.2",
+                "magento/module-catalog": "*",
+                "magento/module-cms": "*",
+                "magento/module-deploy": ">=100.0",
+                "magento/module-theme": "*",
+                "magento/module-ui": ">=101.0",
+                "monolog/monolog": "*",
+                "psr/log": "*",
+                "symfony/console": "*"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\Marketplace\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "One-Click modules and themes downloader/installer",
+            "keywords": [
+                "Module Manager",
+                "installer",
+                "magento marketplace",
+                "marketplace",
+                "theme manager"
+            ],
+            "support": {
+                "issues": "https://github.com/swissup/module-marketplace/issues",
+                "source": "https://github.com/swissup/module-marketplace/tree/1.10.7"
+            },
+            "time": "2025-04-09T11:49:26+00:00"
+        },
+        {
+            "name": "swissup/module-rtl",
+            "version": "1.3.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swissup/module-rtl.git",
+                "reference": "abb632fd7b21c395a5c734c3dbefe92584bbac50"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swissup/module-rtl/zipball/abb632fd7b21c395a5c734c3dbefe92584bbac50",
+                "reference": "abb632fd7b21c395a5c734c3dbefe92584bbac50",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Swissup\\Rtl\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Magento2 RTL detection",
+            "keywords": [
+                "rtl"
+            ],
+            "support": {
+                "issues": "https://github.com/swissup/module-rtl/issues",
+                "source": "https://github.com/swissup/module-rtl/tree/1.3.10"
+            },
+            "time": "2025-04-09T11:49:55+00:00"
+        },
+        {
+            "name": "swissup/theme-frontend-breeze-blank",
+            "version": "2.11.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/breezefront/theme-frontend-breeze-blank.git",
+                "reference": "c6beb9e35dd9c6bcaf340653c4e69149d57c4db1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-blank/zipball/c6beb9e35dd9c6bcaf340653c4e69149d57c4db1",
+                "reference": "c6beb9e35dd9c6bcaf340653c4e69149d57c4db1",
+                "shasum": ""
+            },
+            "require": {
+                "magento/module-page-builder": "^2.0",
+                "swissup/module-breeze": "^2.26.0",
+                "swissup/module-rtl": "^1.3.10"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Clean, lightning-fast breeze-powered theme.",
+            "support": {
+                "issues": "https://github.com/breezefront/theme-frontend-breeze-blank/issues",
+                "source": "https://github.com/breezefront/theme-frontend-breeze-blank/tree/2.11.7"
+            },
+            "time": "2025-10-06T07:18:36+00:00"
+        },
+        {
+            "name": "swissup/theme-frontend-breeze-evolution",
+            "version": "2.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/breezefront/theme-frontend-breeze-evolution.git",
+                "reference": "28ea277eb545d85102cabcbc3d5c0ba2ea3ae72d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/breezefront/theme-frontend-breeze-evolution/zipball/28ea277eb545d85102cabcbc3d5c0ba2ea3ae72d",
+                "reference": "28ea277eb545d85102cabcbc3d5c0ba2ea3ae72d",
+                "shasum": ""
+            },
+            "require": {
+                "swissup/theme-frontend-breeze-blank": "^2.11.7"
+            },
+            "type": "magento2-theme",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Breeze Evolution Theme",
+            "support": {
+                "issues": "https://github.com/breezefront/theme-frontend-breeze-evolution/issues",
+                "source": "https://github.com/breezefront/theme-frontend-breeze-evolution/tree/2.5.4"
+            },
+            "time": "2025-10-06T07:20:24+00:00"
         },
         {
             "name": "symfony/config",
