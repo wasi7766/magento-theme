@@ -73,3 +73,4 @@ vendor/
 .DS_Store
 app/design/frontend/Smartwave/porto/web/node_modules/
 app/design/frontend/Smartwave/porto/web/tailwind/css/tailwind.css
+/app/etc/env.php
